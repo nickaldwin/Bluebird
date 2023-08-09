@@ -4,13 +4,10 @@ A Simple ToDo App is built using the MVC Architecture, we have also implemented 
 
 ---
 
-> Be sure to add that lovely star 😀 and fork it for your own copy
-
 ---
 
 # Objectives
 
-- It's a beginner level app created to understand how MVC concept and logins are added
 
 ---
 
@@ -26,7 +23,7 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
 
 ---
 
-# Things to add
+# Things to add if you cloned the repo
 
 - Create a `.env` file and add the following as `key: value` 
   - PORT: 2121 (can be any port example: 3000) 
