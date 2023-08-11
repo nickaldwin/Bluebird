@@ -17,7 +17,8 @@ require('./config/passport')(passport)
 
 connectDB()
 
-app.set('view engine', 'ejs')
+app.set('view engine', 'jsx'); //replacing ejs to jsx
+app.engine("jsx", require("express-react-views").createEngine());
 app.use(express.static('public'))
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
